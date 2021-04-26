@@ -28,7 +28,8 @@ import { MulherMaravilhaPage } from '../pages/filmes/mulher-maravilha';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MulherMaravilhaPage
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}
