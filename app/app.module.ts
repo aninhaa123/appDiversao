@@ -8,6 +8,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { MulherMaravilhaPage } from '../pages/filmes/mulher-maravilha/mulher-maravilha';
+import { GodzillaKongPage } from '../pages/filmes/godzilla-kong/godzilla-kong';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MulherMaravilhaPage } from '../pages/filmes/mulher-maravilha/mulher-mar
     ContactPage,
     HomePage,
     TabsPage,
-    MulherMaravilhaPage
+    MulherMaravilhaPage,
+    GodzillaKongPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { MulherMaravilhaPage } from '../pages/filmes/mulher-maravilha/mulher-mar
     ContactPage,
     HomePage,
     TabsPage,
-    MulherMaravilhaPage
+    MulherMaravilhaPage,
+    GodzillaKongPage
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}
