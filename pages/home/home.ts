@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { MulherMaravilhaPage } from '../filmes/mulher-maravilha';
+import { MulherMaravilhaPage } from '../filmes/mulher-maravilha/mulher-maravilha';
 
 @Component({
   selector: 'page-home',

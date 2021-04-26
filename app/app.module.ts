@@ -7,7 +7,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-import { MulherMaravilhaPage } from '../pages/filmes/mulher-maravilha';
+import { MulherMaravilhaPage } from '../pages/filmes/mulher-maravilha/mulher-maravilha';
 
 @NgModule({
   declarations: [
